@@ -1,14 +1,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Afacad+Flux:wght@100..1000&family=Agdasima:wght@400;700&display=swap');
 
+:root{
+  --color-a: rgb(238, 129, 205);
+  --font-size-body: 16px;
+  --font-body: "Agdasima", sans-serif;
+}
+
 body{
-  font-size: 16px;
-  font-family: "Agdasima", sans-serif;
+  font-size: var(--font-size-body);
+  font-family: var(--font-body);
   background-color: rgb(41, 31, 31);
   color: white;
 }
 
 a {
-  color: rgb(129, 216, 238);
+  color: var(--color-a);
 }
 
 a:hover {
@@ -18,8 +24,51 @@ a:hover {
 
 img, iframe{
   max-width: 100%;
+  height: auto;
 }
 
 table{
   width: 100%;
+}
+
+.header{
+  text-align: center;
+}
+
+.header-marginBottom{
+  margin-bottom: 100px;
+}
+
+.text-grande{
+  font-size: 100px;
+}
+
+.img-mediana{
+  max-width: 40%;
+}
+
+.padding-imgPortada{
+  padding: 20px;
+}
+
+.bg-imgPortada{
+  background-color: rgb(85, 83, 83);
+}
+
+.main-marginLeft{
+  margin-left: 50px;
+}
+
+.text-color{
+  color: rgb(126, 253, 243);
+}
+
+.text-tableSize{
+  font-size: 30px;
+}
+
+.text-boldSizeAlign{
+  font-weight: bold;
+  font-size: 25px;
+  text-align: center;
 }
