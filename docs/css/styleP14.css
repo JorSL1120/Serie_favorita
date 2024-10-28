@@ -8,6 +8,32 @@ body{
   text-align: center;
 }
 
+a {
+  color: rgb(238, 129, 205);
+}
+
+a:hover {
+  color: rgb(101, 241, 59);
+  transition: all 0.5s ease-in-out;
+}
+
+img, iframe{
+  max-width: 100%;
+  height: auto;
+}
+
+table{
+  width: 100%;
+}
+
+.padding-imgPortada{
+  padding: 20px;
+}
+
+.bg-imgPortada{
+  background-color: rgb(85, 83, 83);
+}
+
 
 /* X-Small devices (portrait phones, less than 576px)
 No media query for `xs` since this is the default in Bootstrap */
